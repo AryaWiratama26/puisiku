@@ -33,7 +33,10 @@ header {
 
 .menu-btn i {
     font-size: 1.8rem;
-    /* display: none; */
+}
+
+.menu-btn {
+    display: none;
 }
 
 
@@ -63,7 +66,7 @@ header {
         align-items: center;
     }
 
-    .navbar .menu-btn {
+    .menu-btn {
         display: flex;
         align-items: center;
         justify-content: center;

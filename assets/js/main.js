@@ -1,4 +1,4 @@
 function menuFunction() {
-    const menuBtn = document.getElementById('myMenu');
+    const menuBtn = document.querySelector('.navbar');
     menuBtn.classList.toggle('active');
 }   
