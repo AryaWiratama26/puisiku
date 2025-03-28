@@ -33,4 +33,41 @@ header {
 
 .menu-btn i {
     font-size: 1.8rem;
+    /* display: none; */
 }
+
+
+/* Responsive */
+
+@media only screen and (max-width: 900px){
+    .navbar {
+        position: fixed;
+        top: 80px;
+        left: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        backdrop-filter: blur(20px);
+        width: 100%;
+        min-height: 450px;
+        height: 90vh;
+        transition: .3s;
+    }
+
+    .navbar.active {
+        left: 0;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar .menu-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+/* 540px */
