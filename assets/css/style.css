@@ -1,3 +1,13 @@
+/* Varible */
+:root {
+    --hijau-tua : #3D8D7A;
+    --toska : #B3D8A8;
+    --putih : #FBFFE4;
+    --biru-muda: #A3D1C6;
+    --bg-abu: rgb(240, 240, 240);
+    --abu-font: rgb(66, 66, 66);
+}
+
 * {
     margin: 0;
     padding: 0;
